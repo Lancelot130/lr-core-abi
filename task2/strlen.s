@@ -1,5 +1,6 @@
     .text
     .globl my_strlen
+    .type my_strlen, @function
 
 my_strlen:
     xorq %rax, %rax
