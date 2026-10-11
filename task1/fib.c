@@ -6,8 +6,7 @@ long long fib(int x)
     long long b = 1;
     long long c;
 
-    if (x == 0) return a;
-    if (x == 1) return b;
+    if (x <= 1) return x; 
 
     for (int i = 2;i <= x;i++)
     {
